@@ -39,7 +39,6 @@ function BandList(){
 function Band({name, members, formed}: {name: string, members: string, formed: number}){
   return(
     <>
-      <img />
       <h2>{name}</h2>
       <h2>Original Members: {members}</h2>
       <h2>Formed: {formed}</h2>
